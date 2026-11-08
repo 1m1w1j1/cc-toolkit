@@ -1,0 +1,14 @@
+name: Reliability checks
+on: [push, pull_request]
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update && sudo apt-get install -y luajit
+      - run: python3 tests/audit.py
+      - run: luajit tests/reliability.lua
+      - run: luajit tests/runtime.lua
+      - run: luajit tests/installer.lua
+      - run: luajit tests/tasks.lua
+      - run: python3 tools/build_release.py && git diff --exit-code -- release.json releases/

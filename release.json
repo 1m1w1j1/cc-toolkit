@@ -1,0 +1,287 @@
+{
+  "format": 1,
+  "id": "bdf34993a9bb33b76c5403c2",
+  "files": [
+    {
+      "path": "b.lua",
+      "size": 289,
+      "checksum": 4120993943
+    },
+    {
+      "path": "cobble.lua",
+      "size": 2198,
+      "checksum": 2830476979
+    },
+    {
+      "path": "d.lua",
+      "size": 284,
+      "checksum": 3840040605
+    },
+    {
+      "path": "data.lua",
+      "size": 3666,
+      "checksum": 4172962236
+    },
+    {
+      "path": "f.lua",
+      "size": 288,
+      "checksum": 2573230157
+    },
+    {
+      "path": "flint.lua",
+      "size": 642,
+      "checksum": 274908679
+    },
+    {
+      "path": "go.lua",
+      "size": 5897,
+      "checksum": 4193057099
+    },
+    {
+      "path": "l.lua",
+      "size": 688,
+      "checksum": 2438123194
+    },
+    {
+      "path": "lavaRefuel.lua",
+      "size": 3876,
+      "checksum": 64599324
+    },
+    {
+      "path": "lib/Class.lua",
+      "size": 1658,
+      "checksum": 3621397171
+    },
+    {
+      "path": "lib/EntityMgr.lua",
+      "size": 2251,
+      "checksum": 3781276649
+    },
+    {
+      "path": "lib/Events.lua",
+      "size": 3674,
+      "checksum": 549700763
+    },
+    {
+      "path": "lib/Log.lua",
+      "size": 3022,
+      "checksum": 2040840259
+    },
+    {
+      "path": "lib/Project.lua",
+      "size": 8149,
+      "checksum": 3775038261
+    },
+    {
+      "path": "lib/Scene.lua",
+      "size": 700,
+      "checksum": 3971668430
+    },
+    {
+      "path": "lib/SceneMgr.lua",
+      "size": 3577,
+      "checksum": 926062235
+    },
+    {
+      "path": "lib/TurtleUtils.lua",
+      "size": 115535,
+      "checksum": 2777620357
+    },
+    {
+      "path": "lib/Vector2.lua",
+      "size": 1945,
+      "checksum": 3181207024
+    },
+    {
+      "path": "lib/clsTurtle.lua",
+      "size": 126651,
+      "checksum": 2333936172
+    },
+    {
+      "path": "lib/data/items.lua",
+      "size": 257766,
+      "checksum": 335615006
+    },
+    {
+      "path": "lib/data/taskInventory.lua",
+      "size": 77800,
+      "checksum": 8019714
+    },
+    {
+      "path": "lib/help.lua",
+      "size": 46174,
+      "checksum": 491976237
+    },
+    {
+      "path": "lib/menu.lua",
+      "size": 18121,
+      "checksum": 3180074540
+    },
+    {
+      "path": "lib/runtime/Fuel.lua",
+      "size": 248,
+      "checksum": 41375743
+    },
+    {
+      "path": "lib/runtime/Movement.lua",
+      "size": 1418,
+      "checksum": 2341071107
+    },
+    {
+      "path": "lib/runtime/Render.lua",
+      "size": 973,
+      "checksum": 3962265209
+    },
+    {
+      "path": "lib/runtime/Storage.lua",
+      "size": 1527,
+      "checksum": 1162481083
+    },
+    {
+      "path": "lib/runtime/Task.lua",
+      "size": 904,
+      "checksum": 3491246866
+    },
+    {
+      "path": "lib/runtime/Version.lua",
+      "size": 612,
+      "checksum": 1062587073
+    },
+    {
+      "path": "lib/ui/Button.lua",
+      "size": 6723,
+      "checksum": 705903190
+    },
+    {
+      "path": "lib/ui/Checkbox.lua",
+      "size": 8390,
+      "checksum": 3248691567
+    },
+    {
+      "path": "lib/ui/ContentBar.lua",
+      "size": 3398,
+      "checksum": 1528563843
+    },
+    {
+      "path": "lib/ui/Label.lua",
+      "size": 5846,
+      "checksum": 1074852529
+    },
+    {
+      "path": "lib/ui/ListBox.lua",
+      "size": 8058,
+      "checksum": 1030018568
+    },
+    {
+      "path": "lib/ui/Multibutton.lua",
+      "size": 11263,
+      "checksum": 3467602352
+    },
+    {
+      "path": "lib/ui/Multilabel.lua",
+      "size": 8041,
+      "checksum": 142299016
+    },
+    {
+      "path": "lib/ui/ScrollBar.lua",
+      "size": 13360,
+      "checksum": 92676790
+    },
+    {
+      "path": "lib/ui/Textbox.lua",
+      "size": 6308,
+      "checksum": 892515318
+    },
+    {
+      "path": "p.lua",
+      "size": 1666,
+      "checksum": 4245950649
+    },
+    {
+      "path": "r.lua",
+      "size": 693,
+      "checksum": 2601636101
+    },
+    {
+      "path": "scenes/GetItems.lua",
+      "size": 18560,
+      "checksum": 4079818558
+    },
+    {
+      "path": "scenes/Help.lua",
+      "size": 1899,
+      "checksum": 2880981329
+    },
+    {
+      "path": "scenes/MainMenu.lua",
+      "size": 50912,
+      "checksum": 2505378646
+    },
+    {
+      "path": "scenes/Quit.lua",
+      "size": 1313,
+      "checksum": 562277011
+    },
+    {
+      "path": "scenes/TaskOptions.lua",
+      "size": 37865,
+      "checksum": 1970631761
+    },
+    {
+      "path": "tasks/building.lua",
+      "size": 30644,
+      "checksum": 1479333407
+    },
+    {
+      "path": "tasks/excavation.lua",
+      "size": 41890,
+      "checksum": 202874226
+    },
+    {
+      "path": "tasks/farming.lua",
+      "size": 147824,
+      "checksum": 2013558057
+    },
+    {
+      "path": "tasks/fluids.lua",
+      "size": 41505,
+      "checksum": 923609233
+    },
+    {
+      "path": "tasks/utilities.lua",
+      "size": 86063,
+      "checksum": 2556210170
+    },
+    {
+      "path": "tk3.lua",
+      "size": 33262,
+      "checksum": 145695034
+    },
+    {
+      "path": "u.lua",
+      "size": 282,
+      "checksum": 265838026
+    },
+    {
+      "path": "x.lua",
+      "size": 868,
+      "checksum": 4057794615
+    }
+  ],
+  "commands": [
+    "b.lua",
+    "cobble.lua",
+    "d.lua",
+    "data.lua",
+    "f.lua",
+    "flint.lua",
+    "go.lua",
+    "l.lua",
+    "lavaRefuel.lua",
+    "p.lua",
+    "r.lua",
+    "tk3.lua",
+    "u.lua",
+    "x.lua"
+  ]
+}
